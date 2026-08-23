@@ -5,7 +5,15 @@ import SelectPackage from "./components/SelectPackage";
 import PackageDetails from "./components/PackageDetails";
 import "./App.css";
 
-const cleanPath = () => window.location.pathname.replace(/\/$/, "") || "/";
+const basePath = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+const cleanPath = () => {
+  const path = window.location.pathname;
+  const appPath = basePath && path.startsWith(basePath)
+    ? path.slice(basePath.length)
+    : path;
+  return appPath.replace(/\/$/, "") || "/";
+};
 
 function App() {
   const [path, setPath] = useState(cleanPath);
@@ -17,7 +25,7 @@ function App() {
   }, []);
 
   const navigate = (to: string) => {
-    window.history.pushState({}, "", to);
+    window.history.pushState({}, "", `${basePath}${to}`);
     setPath(to);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
