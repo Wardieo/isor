@@ -8,10 +8,10 @@ type HomeProps = { navigate: (to: string) => void };
 
 const packages = [
   {
-    title: "iSOLO PACKAGE",
+    title: "iSOLO PACKAGE - Student Rate",
     time: "7 mins",
     pax: "1 Pax",
-    price: "₱149",
+    price: "₱189",
     details: [
       "7 mins Photoshoot",
       "7 mins Photo Selection",
@@ -21,7 +21,7 @@ const packages = [
     ],
   },
   {
-    title: "iDUO PACKAGE",
+    title: "iDUO PACKAGE - Adult Rate",
     time: "10 mins",
     pax: "1–2 Pax",
     price: "₱329",
@@ -34,7 +34,7 @@ const packages = [
     ],
   },
   {
-    title: "iTRIO PACKAGE",
+    title: "iTRIO PACKAGE - Any Age Session",
     time: "20 mins",
     pax: "1–3 Pax",
     price: "₱699",
@@ -47,7 +47,7 @@ const packages = [
     ],
   },
   {
-    title: "iQUAD PACKAGE",
+    title: "iQUAD PACKAGE - Any Age Session",
     time: "25 mins",
     pax: "1–5 Pax",
     price: "₱899",

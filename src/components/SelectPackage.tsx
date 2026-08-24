@@ -4,8 +4,8 @@ import logo from "../assets/logo.png";
 type Props = { navigate: (to: string) => void };
 const packages = [
   {
-    name: "iSOLO PACKAGE",
-    price: 149,
+    name: "iSOLO PACKAGE - Student Rate",
+    price: 189,
     summary: "1 Pax · 7 mins Photoshoot",
     details: [
       "7 mins Photo Selection",
@@ -15,7 +15,7 @@ const packages = [
     ],
   },
   {
-    name: "iDUO PACKAGE",
+    name: "iDUO PACKAGE - Adult Rate",
     price: 329,
     summary: "1–2 Pax · 10 mins Photoshoot",
     details: [
@@ -26,7 +26,7 @@ const packages = [
     ],
   },
   {
-    name: "iTRIO PACKAGE",
+    name: "iTRIO PACKAGE - Any Age Session",
     price: 699,
     summary: "1–3 Pax · 20 mins Photoshoot",
     details: [
@@ -37,7 +37,7 @@ const packages = [
     ],
   },
   {
-    name: "iQUAD PACKAGE",
+    name: "iQUAD PACKAGE - Any Age Session",
     price: 899,
     summary: "1–5 Pax · 25 mins Photoshoot",
     details: [
