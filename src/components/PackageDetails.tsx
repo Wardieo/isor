@@ -36,7 +36,7 @@ const packages = [
     ],
   },
   {
-    name: "iQUAD PACKAGE - Any Age Session",
+    name: "iSQUAD PACKAGE - Any Age Session",
     price: 899,
     summary: "1–5 Pax · 25 mins Photoshoot",
     details: [

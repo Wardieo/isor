@@ -47,7 +47,7 @@ const packages = [
     ],
   },
   {
-    title: "iQUAD PACKAGE - Any Age Session",
+    title: "iSQUAD PACKAGE - Any Age Session",
     time: "25 mins",
     pax: "1–5 Pax",
     price: "₱899",
@@ -204,8 +204,8 @@ function StudioCard({ navigate }: HomeProps) {
         </button>
         {contactOpen && (
           <div className="contact-details">
-            <a href="mailto:salvalozajrisagani@gmail.com">
-              ✉ &nbsp; salvalozajrisagani@gmail.com
+            <a href="mailto:isorastudioph@gmail.com">
+              ✉ &nbsp; isorastudioph@gmail.com
             </a>
           </div>
         )}
@@ -421,8 +421,8 @@ export default function Home({ navigate }: HomeProps) {
             <div className="about-columns">
               <div>
                 <strong>Contact us</strong>
-                <a href="mailto:salvalozajrisagani@gmail.com">
-                  ✉ &nbsp;salvalozajrisagani@gmail.com
+                <a href="mailto:isorastudioph@gmail.com">
+                  ✉ &nbsp;isorastudioph@gmail.com
                 </a>
               </div>
               <div>
