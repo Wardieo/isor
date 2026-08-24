@@ -77,8 +77,9 @@ const addonGroups = [
   {
     name: "Extra Prints",
     items: [
-      { label: "Polaroid / Film Strip Print", price: 79 },
+      { label: "Polaroid / Film Strip Print", price: 39 },
       { label: "4R Print", price: 79 },
+      { label: "A4 Print", price: 150 },
     ],
   },
 ];

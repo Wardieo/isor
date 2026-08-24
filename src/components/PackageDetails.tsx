@@ -62,22 +62,23 @@ const addons = [
   {
     name: "Additional Pax",
     items: [
-      ["Adult", 149],
-      ["Student", 99],
-      ["0–4 years old", 79],
-      ["Pet", 99],
+      ["Adult", "₱149"],
+      ["Student", "₱99"],
+      ["0–4 years old", "₱79"],
+      ["Pet", "₱99"],
     ],
   },
   {
     name: "Additional Shooting Time / Photo Selection",
-    items: [["5 minutes", 99]],
+    items: [["5 minutes", "₱99"]],
   },
-  { name: "Additional Backdrop", items: [["Per color", 129]] },
+  { name: "Additional Backdrop", items: [["Per color", "₱139"]] },
   {
     name: "Extra Prints",
     items: [
-      ["Polaroid / Film Strip Print", 79],
-      ["4R Print", 79],
+      ["Polaroid / Film Strip Print", "₱39"],
+      ["4R Print", "₱79"],
+      ["A4 Print", "₱150"],
     ],
   },
 ];

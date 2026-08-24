@@ -91,8 +91,9 @@ const addons = [
   {
     name: "Extra Prints",
     items: [
-      ["Polaroid / Film Strip Print", "₱79"],
+      ["Polaroid / Film Strip Print", "₱39"],
       ["4R Print", "₱79"],
+      ["A4 Print", "₱150"],
     ],
   },
 ];
